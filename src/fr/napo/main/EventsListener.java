@@ -27,7 +27,7 @@ public class EventsListener implements Listener {
         player.getInventory().clear();
         ItemStack customcompass = new ItemStack(Material.COMPASS, 1);
         ItemMeta customC = customcompass.getItemMeta();
-        customC.setDisplayName("§cJeux");
+        customC.setDisplayName("§a§lModes de Jeux");
         customcompass.setItemMeta(customC);
         player.getInventory().setItem(4, customcompass);
         player.updateInventory();
@@ -52,7 +52,7 @@ public class EventsListener implements Listener {
             inv.setItem(14, getItem(Material.GRASS, "§2§lSkyBlock §d§lSaison 4!"));
             inv.setItem(15, getItem(Material.ITEM_FRAME, "§7Prochainement..."));
 
-
+    
 
             player.openInventory(inv);
         }

@@ -3,3 +3,5 @@ name: Lobby
 author: NapoTwiixe
 version: 1.0
 description: test
+commands:
+  spawn:
