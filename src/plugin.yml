@@ -5,3 +5,6 @@ version: 1.0
 description: test
 commands:
   spawn:
+    description: permet de ce tp au spawn
+  ping:
+    description: permet de voir le pind d'un joueur
